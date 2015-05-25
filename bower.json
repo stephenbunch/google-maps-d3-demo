@@ -1,0 +1,18 @@
+{
+  "name": "google-maps-d3-demo",
+  "version": "0.0.0",
+  "authors": [
+    "Stephen Bunch <bunchclone@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.5.5"
+  }
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="charset" content="utf8">
+    <title>Google Maps &amp; D3 Demo</title>
+
+    <link rel="stylesheet" href="main.css" type="text/css">
+  </head>
+  <body>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrP661KjUvo90IvANjnwQxG4Uw-G6MwH8"></script>
+    <script src="bower_components/d3/d3.min.js"></script>
+    <script src="node_modules/babel-core/browser.min.js"></script>
+    <script>
+      babel.transform.options.modules.default = 'umd';
+    </script>
+    <script src="node_modules/clarinet/clarinet.js"></script>
+
+    <script type="text/babel" src="src/EventStream.js"></script>
+    <script type="text/babel" src="src/JsonDecoder.js"></script>
+    <script type="text/babel" src="src/TwitterClient.js"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>

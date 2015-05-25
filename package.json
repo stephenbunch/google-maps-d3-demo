@@ -1,0 +1,15 @@
+{
+  "name": "google-maps-d3-demo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephen Bunch",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^5.4.7",
+    "clarinet": "^0.11.0"
+  }
+}
